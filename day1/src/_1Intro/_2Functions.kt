@@ -4,9 +4,10 @@ fun max(a: Int, b: Int): Int {
     return if (a < b) a else b
 }
 
-fun max2(a: Int, b: Int) = if (a < b) a else b
+fun max2(a: Int, b: Int) = if (a > b) a else b
 
 // default values for arguments
+@JvmOverloads // generate overloads for java
 fun sum(a: Int, b: Int, c: Int = 0) = a + b + c
 
 fun use() {
