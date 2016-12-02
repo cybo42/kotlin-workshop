@@ -14,5 +14,5 @@ fun main(args: Array<String>) {
 
 // Find the correspondence between customers and their names (as a map)
  fun Shop.associateCustomersByName(): Map<String, Customer> {
-    TODO()
+    return this.customers.associateBy { it.name }
 }

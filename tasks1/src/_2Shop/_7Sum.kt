@@ -9,5 +9,5 @@ fun main(args: Array<String>) {
 // Return the sum of prices of all products that a customer has ordered.
 // Note: a customer may order the same product for several times.
 fun Customer.getTotalOrderPrice(): Double {
-    TODO()
+    return this.orders.flatMap { it.products }.sumByDouble { it.price }
 }

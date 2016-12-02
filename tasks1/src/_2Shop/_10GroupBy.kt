@@ -11,5 +11,5 @@ fun main(args: Array<String>) {
 
 // Return a map of the customers living in each city
 fun Shop.groupCustomersByCity(): Map<City, List<Customer>> {
-    TODO()
+    return this.customers.groupBy { it.city }
 }

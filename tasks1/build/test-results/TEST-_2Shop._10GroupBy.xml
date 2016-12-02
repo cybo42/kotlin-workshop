@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="_2Shop._10GroupBy" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-01T21:15:20" hostname="Joe-Cyboski-7092" time="0.11">
+  <properties/>
+  <testcase name="testGroupCustomersByCity" classname="_2Shop._10GroupBy" time="0.11"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
