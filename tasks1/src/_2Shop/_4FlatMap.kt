@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     println(result)   // [a, b, c, 1, 2]
 }
 
-// Return all products ordered by customer
+// Return all products that were ordered by customer
 val Customer.orderedProducts: Set<Product> get() {
     TODO()
 }
